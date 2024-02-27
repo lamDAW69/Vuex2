@@ -1,8 +1,8 @@
 <template>
   <div class="col-4 pokemon">
-    <p>{{ pokemon.name }}</p>
-    <p>{{ pokemon.variations[0].description }} </p>
-    <img :src="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/'+ pokemon.num + '.png'" />
+    <p>{{ pokemon.nombre }}</p>
+    <p>{{ pokemon.descripcion }} </p>
+    <img :src="pokemon.foto" />
   </div>
 </template>
 
